@@ -1,0 +1,51 @@
+.card-main {
+    width: 100vw;
+}
+
+.avaliable-cards {
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    gap: 2vw;
+}
+
+.recents-cards {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vw;
+
+}
+
+.recents-cards>h1 {
+    margin: 20px 0px;
+    font-size: 25px;
+}
+
+.avaliable-cards::-webkit-scrollbar {
+    display: none;
+
+}
+
+.loader-inner>img {
+    width: 200px;
+}
+
+.loader-inner {
+    top: 40%;
+    width: 100vw;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 650px) {
+
+    .avaliable-cards {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+/* Responsive styles for tablet */
+@media (min-width: 650px) and (max-width: 1024px) {}

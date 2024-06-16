@@ -1,0 +1,167 @@
+.signupwrap>h3 {
+
+    text-align: center;
+}
+
+.signupwrap {
+    transition: 500ms;
+}
+
+.signupbutton {
+    height: 45px;
+    border-radius: 20px;
+    border: none;
+    background-color: #0892f5;
+    margin-top: 30px;
+    width: 300px;
+    color: aliceblue;
+}
+
+.signup>input {
+    display: block;
+    height: 45px;
+    border-radius: 20px;
+    border: solid slategrey 1px;
+    padding-left: 15px;
+    margin-top: 30px;
+    width: 300px;
+
+}
+
+.gotologin {
+
+    margin-top: 30px;
+    text-align: center;
+
+}
+
+.gotologin>p>a {
+    cursor: pointer;
+    color: #0892f5;
+
+}
+
+.login {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+    height: 520px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 35px;
+    border-radius: 10px;
+    transition: 500ms;
+    gap: 2rem;
+    overflow: hidden;
+}
+
+.loginwrap {
+    transition: 500ms;
+}
+
+.loginwrap>h3 {
+
+    text-align: center;
+}
+
+.loginmain>button {
+
+    height: 45px;
+    border-radius: 20px;
+    border: none;
+    background-color: #0892f5;
+    margin-top: 30px;
+    width: 300px;
+    color: aliceblue;
+
+}
+
+.loginmain>input {
+
+    height: 45px;
+    border-radius: 20px;
+    border: solid slategrey 1px;
+    padding-left: 15px;
+    margin-top: 30px;
+    width: 300px;
+
+}
+
+::placeholder {
+    color: #003459;
+    opacity: 0.8;
+}
+
+.loader {
+    width: 100px;
+    position: fixed;
+    margin-left: 47%;
+    margin-top: 15%;
+    opacity: 5;
+}
+
+.mainwrap {
+    padding-top: 50px;
+    ;
+    background-color: #0892f5;
+    height: 100vh;
+}
+
+.signupwrap>img {
+    margin-top: 30px;
+    width: 450px;
+    height: 400px;
+}
+
+.bg3 {
+    transition: 500ms;
+}
+
+@media (max-width: 650px) {
+
+    .bg3 {
+        display: none;
+    }
+
+    .login {
+        background-color: whitesmoke;
+        display: flex;
+        justify-content: space-between;
+        max-width: 360px;
+        height: 520px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 40px;
+        border-radius: 10px;
+        transition: 500ms;
+        gap: 2rem;
+        overflow: hidden;
+    }
+
+
+
+}
+
+/* Responsive styles for tablet */
+@media (min-width: 650px) and (max-width: 950px) {
+
+    .bg3 {
+        display: none;
+    }
+    .login {
+        background-color: whitesmoke;
+        display: flex;
+        justify-content: space-between;
+        max-width: 360px;
+        height: 520px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 40px;
+        border-radius: 10px;
+        transition: 500ms;
+        gap: 2rem;
+        overflow: hidden;
+    }
+
+}

@@ -1,0 +1,60 @@
+
+
+
+.cardMain{
+
+  height: 410px;
+  background-color: black;
+  border-radius:10px ;
+  box-shadow: 1px 1px 5px;
+  cursor: pointer;
+ 
+}
+
+.card-images{
+  border-top-right-radius:10px ;
+  border-top-left-radius:10px ;
+    height: 330px;
+    width: 220px;
+   
+}
+.recents{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.rating-votes{
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+  color: aliceblue;
+  background-color: black;
+  margin-top: -4px;
+}
+
+.show-name{
+  font-size: large;
+  font-weight:700 ;
+  color: #fff;
+  padding-left: 10px;
+}
+.show-type{
+  font-size: large;
+  font-weight:lighter;
+  color: rgb(134, 132, 132); 
+  padding-left: 10px;
+}
+
+.cards1::-webkit-scrollbar {
+    height: 0px;
+  }
+  .cards1::-webkit-scrollbar-thumb {
+    background:transparent;
+    border-radius: 10px;
+  }
+  .cards1::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+
+/* Responsive styles for tablet */
+

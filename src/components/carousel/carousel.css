@@ -1,0 +1,37 @@
+
+
+.images{ 
+  display: flex;
+  gap:0.6rem;
+  overflow-x: scroll;
+  width: 100vw;
+  padding-bottom: 20px;
+  scroll-margin-left:50px;
+  transition: 1500ms;
+  margin-left: auto;
+  margin-right: auto;
+  scroll-behavior: smooth;
+}
+.radiobtn{
+  display: flex;
+  transition: 1500ms;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.images::-webkit-scrollbar {
+  display: none;
+}
+/* .images::-webkit-scrollbar-thumb {
+  background:black;
+  border-radius: 10px;
+}
+.images::-webkit-scrollbar-track {
+  background: transparent;
+} */
+
+
+.first,.sec,.third,.forth,.fifth{
+  height: 20vw;
+}

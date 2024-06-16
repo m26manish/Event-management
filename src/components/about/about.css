@@ -1,0 +1,167 @@
+ 
+ .about-main{
+    width: 100vw;
+    background-color: #0892f5;
+    margin-top: 20px;
+ }
+ .box{
+    padding: 20px;
+    width: 85vw;
+    margin-left: auto;
+    margin-right: auto; 
+  }
+  
+ .footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+  }
+  
+ .marketplace {
+   
+    width: 125px;
+    height: 159px;
+   
+  }
+  
+ .text-wrapper {
+   
+    font-family: "DM Sans-Medium", Helvetica;
+    font-weight: 500;
+    color: #f3f3f3;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 28px;
+  }
+  
+   .div {
+    font-family: "DM Sans-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+   .NFT-marketplace {
+    width: 300px;
+  }
+   .NFT-marketplace >a{
+    color: #fff;
+    font-size: 30px;
+  }
+  
+   .eventick {  
+    font-family: "Proxima Nova-Regular", Helvetica;
+    font-weight: 400;
+    font-size: 28.5px;
+    color: #ffffff;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+   .span {
+    font-family: "Proxima Nova-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 28.5px;
+    letter-spacing: 0;
+  }
+  
+ 
+   .p {
+    font-family: "Averta Demo PE Cutted Demo-Regular", Helvetica;
+    font-weight: 400;
+    color: #f3f3f3;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 22.4px;
+  }
+
+  .stay-loop{
+
+    width: 300px;
+  }
+  
+  
+   .text-wrapper-2 {
+    margin: 20px 0px;
+    font-family: "DM Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #f3f3f3;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 22.4px;
+  }
+  
+   .overlap-group {
+    display: flex;
+    width: 300px;
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 45px;
+    border: 2px solid;
+    border-color: #f1f1f1;
+  }
+  
+.input-email{
+  display: block;
+  width: 200px;
+  border-radius: 45px;
+  border: none;
+  height: 48px;
+  padding-left: 20px;
+
+}
+.input-email:focus{
+  outline: none;
+}
+.send-email{
+  display: block;
+  width: 85px;
+  border-radius: 45px;
+  border: none;
+  height: 40px;
+  background-color: #0892f5;
+  margin-left: 7px;
+  margin-top: 3.5px;
+  color: #fff;
+  font-size: large;
+}
+
+   .text-wrapper-3 {
+  
+    font-family: "DM Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #959595;
+    font-size: 12.2px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+   .text-wrapper-5 {
+    font-family: "Averta Demo PE Cutted Demo-Regular", Helvetica;
+    font-weight: 400;
+    color: #fdfdfd;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 22.4px;
+    white-space: nowrap;
+  }
+  @media (max-width: 650px) {
+   .footer{
+    display: flex;
+    flex-wrap: wrap;
+   }
+    
+}
+
+/* Responsive styles for tablet */
+@media (min-width: 650px) and (max-width: 1024px) {
+  .footer{
+    display: flex;
+    flex-wrap: wrap;
+   }
+}
+
+  

@@ -1,0 +1,121 @@
+.wraper{
+    
+display: flex;
+overflow: hidden;
+position: relative;
+
+
+}
+.menubar{
+    width: 230px;
+    background-color:#4e73df;
+    height: 100vh;
+    color: aliceblue;
+    position:fixed;
+
+    
+}
+.header{
+   text-align: center;
+   margin-bottom: 20px;
+}
+
+.account,.dashboard,.newevent,.clashes,.statics,.Contactus{
+    display: block;
+    background-color: transparent;
+    margin-left:24px;
+    margin-top: 30px;
+    font-size: 1.2rem;
+    border-top-left-radius:20px;
+    border-bottom-left-radius:20px;
+    width: 90%;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    padding-left:20px;
+    color: white;
+}
+.logout{
+    display: block;
+    background-color: transparent;
+    margin-left:40px;
+    margin-top: 30px;
+    font-size: 1.2rem;
+    width: 90%;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: left;
+    padding-left:20px;
+    color: white;
+
+}
+.account{
+    margin-top: 100px;
+}
+
+.showbar{
+    background-color: #F7F8FB;
+    margin-left: 230px;
+}
+
+.dashNav{
+
+    height: 70px;
+    width: 85vw;
+    display:flex;
+    justify-content: space-between;
+    background-color: #fff;
+    box-shadow: 8px 1px 10px 0px gray;
+}
+.dashSerach{
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    
+}
+.searchBox{
+    margin-left: 30px;
+    width: 20vw;
+    height: 40px;
+    padding-left: 20px;
+    border-top-left-radius:8px;
+    border-bottom-left-radius:8px;
+    border: none;
+    box-shadow: 0px 1px 3px 0px gray;
+}
+.searchIcons{
+    padding-top:10px;
+    background-color: #4e73df;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    color: aliceblue;
+    font-size: large;
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+}
+
+.navProfile{
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    margin-right: 30px;
+    gap: 1rem;
+
+}
+.profileImg{
+    width: 30px;
+    height: 30px;
+    border: solid 1px;
+    border-radius: 50px;
+    text-align: center;
+    padding-top: 5px;
+    margin-top: -5px;
+}
+.logo{
+    height: 50px;
+    margin-top: 10px;
+}

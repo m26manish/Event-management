@@ -1,0 +1,157 @@
+
+
+.detail >h2{
+    text-align: center;
+}
+.mainadd{
+    width: auto;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:5rem;
+    
+}
+.detail>p{
+    font-size: medium;
+    color: rgb(14, 146, 198);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.detail >input{
+    width: 300px;
+    height: 45px;
+    margin-bottom: 10px;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    padding-left:10px;
+    font-size: large;
+    background-color: transparent;
+    
+}
+.detail >input:focus{
+    outline: none;
+}
+.detail{
+    margin-bottom: 20px;
+}
+.detail>div{
+    display:flex;
+    justify-content: space-between;
+    font-size: medium;
+    color: rgb(14, 146, 198);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.content{
+    width: 300px;
+    height: 220px;
+    padding: 20px;
+    margin-bottom:20px;
+    background-color: transparent;
+    
+}
+
+.upperhalf{
+    max-width: 650px;
+    display: flex;
+    justify-content:space-around;
+    gap: 3rem;
+    flex-wrap: wrap;
+    margin-left: 30px;
+}
+.upperhalf2>p,.upperhalf3>p{
+        font-size: medium;
+        color: rgb(14, 146, 198);
+        margin-top: 10px;
+        margin-bottom: 10px;
+}
+.upperhalf2>input{
+    width: 300px;
+    height: 45px;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    padding-left:10px;
+    font-size: large;
+    background-color: transparent;
+}
+.upperhalf2>input:focus{
+    outline: none;
+}
+.file{
+    color:rgb(14, 146, 198) ; 
+}
+.upperhalf3{
+    overflow:auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 360px;
+    height: 550px;
+    padding:0px 10px ;
+}
+.imgpreview{
+    border: solid 1px;
+    height: 450px;
+    border-top: 1px solid ;
+    padding-top: 10px;
+}
+.lowerhalf{
+    max-width: 200px;
+  
+}
+.mainwraper >h2{
+        text-align: center;
+        margin-top: 20px;
+}
+.mainwraper{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+}
+.td>input{
+    max-width: 105px;
+    border: none;
+    height: 20px;
+}
+
+.td>input:focus{
+    outline: none;
+}
+
+.td{
+    border: 1px solid;
+    padding: 3px;
+    width: 70px;
+}
+.lowerhalf>p{
+    margin-bottom: 10px;
+    color:rgb(14, 146, 198) ;
+}
+.submitBtn{
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90px;
+    height: 30px;
+    border-radius: 10px;
+    color:aliceblue;
+    border: none;
+    background-color:#4e73df;
+    font-size: larger;
+}
+.submitBtn:active{
+    color: brown;
+}
+.priview{
+    
+    max-width:310px;
+
+}
+
+.upperhalf3::-webkit-scrollbar {
+    display: none;
+  }
+

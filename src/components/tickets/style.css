@@ -1,0 +1,82 @@
+.ticket_main {
+
+    position: relative;
+    padding: 20px;
+
+}
+
+.ticket_wrapper {
+    width: 360px;
+    border-radius: 10px;
+    height: 620px;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(245, 245, 245, 0.525);
+    box-shadow: 0px 0px 7px 0px;
+}
+
+.qrcode {
+
+    text-align: center;
+}
+
+.ticket_logo>img {
+    display: block;
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.ticket_detail {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.ticket_detail>img {
+    height: 140px;
+    border-radius: 20px;
+
+}
+
+.ticket_>p {
+
+    color: rgba(105, 128, 210, 0.559);
+    margin: 0px 0px;
+    font-size: 12px;
+
+}
+
+.ticket_ {
+    display: flex;
+    flex-wrap: wrap;
+
+    color: #0892f5;
+    margin: 8px 0px;
+    font-weight: 500;
+}
+
+.ticket_print {
+    margin-top: 40px;
+    margin-left: 150px;
+}
+
+.ticket_print>button {
+
+    font-size: larger;
+    border: none;
+    background-color: #0892f5;
+    padding: 5px 10px;
+    color: aliceblue;
+    border-radius: 10px;
+}
+
+.event_name_ticket {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
